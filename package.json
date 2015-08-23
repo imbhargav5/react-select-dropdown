@@ -47,7 +47,7 @@
     "webpack": "~1.10.0",
     "webpack-dev-server": "~1.10.0"
   },
-  "main": "src/index.js",
+  "main": "dist/assets/main.js",
   "directories": {
     "test": "test"
   },
@@ -59,10 +59,14 @@
     "react",
     "dropdown",
     "select-dropdown",
-    "dropdown-react"
+    "dropdown-react",
+    "react-component",
+    "component",
+    "select",
+    "react-select-dropdown"
   ],
   "author": "Bhargav Ponnapalli",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/bhargav175/react-select-dropdown/issues"
   },
