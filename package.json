@@ -1,12 +1,11 @@
 {
-  "name": "reactselectdropdown",
-  "version": "0.0.0",
+  "name": "react-select-dropdown",
+  "version": "1.0.0",
   "description": "A Dropdown for react",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bhargav175/react-select-dropdown.git"
   },
-  "private": true,
   "src": "src",
   "test": "test",
   "dist": "dist",

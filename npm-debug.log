@@ -1,0 +1,149 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec { raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/home/bhargav/Downloads/Bhargav/react-select-dropdown',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home/bhargav/.npm/react-select-dropdown/0.0.0/package.tgz not in flight; packing
+9 verbose tar pack [ '/home/bhargav/.npm/react-select-dropdown/0.0.0/package.tgz',
+9 verbose tar pack   '/home/bhargav/Downloads/Bhargav/react-select-dropdown' ]
+10 verbose tarball /home/bhargav/.npm/react-select-dropdown/0.0.0/package.tgz
+11 verbose folder /home/bhargav/Downloads/Bhargav/react-select-dropdown
+12 info prepublish react-select-dropdown@0.0.0
+13 verbose addLocalTarball adding from inside cache /home/bhargav/.npm/react-select-dropdown/0.0.0/package.tgz
+14 silly cache afterAdd react-select-dropdown@0.0.0
+15 verbose afterAdd /home/bhargav/.npm/react-select-dropdown/0.0.0/package/package.json not in flight; writing
+16 verbose afterAdd /home/bhargav/.npm/react-select-dropdown/0.0.0/package/package.json written
+17 silly publish { name: 'react-select-dropdown',
+17 silly publish   version: '0.0.0',
+17 silly publish   description: 'A Dropdown for react',
+17 silly publish   repository:
+17 silly publish    { type: 'git',
+17 silly publish      url: 'git+https://github.com/bhargav175/react-select-dropdown.git' },
+17 silly publish   src: 'src',
+17 silly publish   test: 'test',
+17 silly publish   dist: 'dist',
+17 silly publish   mainInput: 'main',
+17 silly publish   mainOutput: 'main',
+17 silly publish   dependencies:
+17 silly publish    { 'react-router': '0.13.x',
+17 silly publish      react: '0.13.x',
+17 silly publish      'normalize.css': '~3.0.3' },
+17 silly publish   devDependencies:
+17 silly publish    { babel: '^5.0.0',
+17 silly publish      'babel-loader': '^5.0.0',
+17 silly publish      'css-loader': '~0.9.0',
+17 silly publish      eslint: '^0.21.2',
+17 silly publish      'eslint-loader': '^0.11.2',
+17 silly publish      'eslint-plugin-react': '^2.4.0',
+17 silly publish      'font-awesome': '^4.4.0',
+17 silly publish      grunt: '~0.4.5',
+17 silly publish      'grunt-contrib-clean': '~0.6.0',
+17 silly publish      'grunt-contrib-connect': '~0.8.0',
+17 silly publish      'grunt-contrib-copy': '~0.5.0',
+17 silly publish      'grunt-karma': '~0.8.3',
+17 silly publish      'grunt-open': '~0.2.3',
+17 silly publish      'grunt-webpack': '~1.0.8',
+17 silly publish      'jasmine-core': '^2.3.4',
+17 silly publish      jquery: '^2.1.4',
+17 silly publish      karma: '~0.12.21',
+17 silly publish      'karma-jasmine': '^0.3.5',
+17 silly publish      'karma-phantomjs-launcher': '~0.1.3',
+17 silly publish      'karma-script-launcher': '~0.1.0',
+17 silly publish      'karma-webpack': '^1.5.0',
+17 silly publish      'load-grunt-tasks': '~0.6.0',
+17 silly publish      'react-hot-loader': '^1.0.7',
+17 silly publish      'sass-loader': '^1.0.1',
+17 silly publish      'style-loader': '~0.8.0',
+17 silly publish      'url-loader': '~0.5.5',
+17 silly publish      webpack: '~1.10.0',
+17 silly publish      'webpack-dev-server': '~1.10.0' },
+17 silly publish   main: 'dist/assets/main.js',
+17 silly publish   directories: { test: 'test' },
+17 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+17 silly publish   keywords:
+17 silly publish    [ 'react-dropdown',
+17 silly publish      'react',
+17 silly publish      'dropdown',
+17 silly publish      'select-dropdown',
+17 silly publish      'dropdown-react',
+17 silly publish      'react-component',
+17 silly publish      'component',
+17 silly publish      'select',
+17 silly publish      'react-select-dropdown' ],
+17 silly publish   author: { name: 'Bhargav Ponnapalli' },
+17 silly publish   license: 'MIT',
+17 silly publish   bugs: { url: 'https://github.com/bhargav175/react-select-dropdown/issues' },
+17 silly publish   homepage: 'https://github.com/bhargav175/react-select-dropdown#readme',
+17 silly publish   gitHead: '1dc3a83b77ee66fdd15899b6b59ccafa83f8b716',
+17 silly publish   readme: 'ERROR: No README data found!',
+17 silly publish   _id: 'react-select-dropdown@0.0.0',
+17 silly publish   _shasum: '81e09601e586ad67305f3ac61d3764d285b8b88e',
+17 silly publish   _from: '.' }
+18 verbose getPublishConfig undefined
+19 silly mapToRegistry name react-select-dropdown
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/react-select-dropdown
+23 verbose publish registryBase https://registry.npmjs.org/
+24 silly publish uploading /home/bhargav/.npm/react-select-dropdown/0.0.0/package.tgz
+25 verbose request uri https://registry.npmjs.org/react-select-dropdown
+26 verbose request sending authorization for write operation
+27 info attempt registry request try #1 at 8:46:37 PM
+28 verbose request using bearer token for auth
+29 verbose request id f84c598bb4f64806
+30 http request PUT https://registry.npmjs.org/react-select-dropdown
+31 http 500 https://registry.npmjs.org/react-select-dropdown
+32 info retry will retry, error on last attempt: Error: "\"undefined\" == true" : react-select-dropdown
+33 info attempt registry request try #2 at 8:46:51 PM
+34 verbose request using bearer token for auth
+35 http request PUT https://registry.npmjs.org/react-select-dropdown
+36 http 500 https://registry.npmjs.org/react-select-dropdown
+37 info retry will retry, error on last attempt: Error: "\"undefined\" == true" : react-select-dropdown
+38 info attempt registry request try #3 at 8:47:55 PM
+39 verbose request using bearer token for auth
+40 http request PUT https://registry.npmjs.org/react-select-dropdown
+41 http 500 https://registry.npmjs.org/react-select-dropdown
+42 verbose headers { 'content-type': 'application/json',
+42 verbose headers   'cache-control': 'max-age=0',
+42 verbose headers   'content-length': '57',
+42 verbose headers   'accept-ranges': 'bytes',
+42 verbose headers   date: 'Sun, 23 Aug 2015 15:17:59 GMT',
+42 verbose headers   via: '1.1 varnish',
+42 verbose headers   connection: 'keep-alive',
+42 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+42 verbose headers   'x-cache': 'MISS',
+42 verbose headers   'x-cache-hits': '0',
+42 verbose headers   'x-timer': 'S1440343076.804001,VS0,VE3110' }
+43 verbose request invalidating /home/bhargav/.npm/registry.npmjs.org/react-select-dropdown on PUT
+44 error publish Failed PUT 500
+45 verbose stack Error: "\"undefined\" == true" : react-select-dropdown
+45 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:247:14)
+45 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:170:14)
+45 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:354:22)
+45 verbose stack     at Request.emit (events.js:110:17)
+45 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1207:14)
+45 verbose stack     at Request.emit (events.js:129:20)
+45 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1153:12)
+45 verbose stack     at IncomingMessage.emit (events.js:129:20)
+45 verbose stack     at _stream_readable.js:908:16
+45 verbose stack     at process._tickCallback (node.js:355:11)
+46 verbose statusCode 500
+47 verbose pkgid react-select-dropdown
+48 verbose cwd /home/bhargav/Downloads/Bhargav/react-select-dropdown
+49 error Linux 3.16.0-31-generic
+50 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+51 error node v0.12.7
+52 error npm  v2.11.3
+53 error code E500
+54 error "\"undefined\" == true" : react-select-dropdown
+55 error If you need help, you may report this error at:
+55 error     <https://github.com/npm/npm/issues>
+56 verbose exit [ 1, true ]
