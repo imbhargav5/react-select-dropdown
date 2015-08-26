@@ -8,7 +8,6 @@
   },
   "src": "src",
   "test": "test",
-  "dist": "dist",
   "mainInput": "main",
   "mainOutput": "main",
   "dependencies": {
