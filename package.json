@@ -52,12 +52,13 @@
     "webpack": "~1.10.0",
     "webpack-dev-server": "~1.10.0"
   },
-  "main": "dist/assets/selectDropdown.js",
+  "main": "dist/lib/index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" :"jsx -x js src/lib dist/lib"
   },
   "keywords": [
     "react-dropdown",
