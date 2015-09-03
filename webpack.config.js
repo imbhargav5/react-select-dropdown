@@ -19,7 +19,7 @@ module.exports = {
   devtool: 'sourcemap',
   entry: [
       'webpack/hot/only-dev-server',
-      './src/components/main.js'
+      './src/examples/example_simple/main.js'
   ],
 
   stats: {

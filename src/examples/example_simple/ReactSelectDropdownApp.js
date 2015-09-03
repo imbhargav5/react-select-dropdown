@@ -5,7 +5,7 @@ var SelectDropdown = require('../../lib/index.js');
 
 // CSS
 require('normalize.css');
-require('../styles/main.css');
+require('./styles/main.css');
 
 
 
