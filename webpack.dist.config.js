@@ -13,13 +13,12 @@ module.exports = {
   output: {
     publicPath: '/assets/',
     path: 'dist/assets/',
-    filename: 'main.js'
+    filename: '[name].js'
   },
 
   debug: false,
   devtool: false,
-  entry: './src/examples/example_simple/main.js',
-
+  entry: {selectDropdown: './src/lib/index.js'},
   stats: {
     colors: true,
     reasons: false

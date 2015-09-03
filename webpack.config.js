@@ -6,6 +6,7 @@
  */
 'use strict';
 var webpack = require('webpack');
+var browserify = require('browserify');
 
 module.exports = {
 
@@ -44,7 +45,8 @@ module.exports = {
     loaders: [{
       test: /\.(js|jsx)$/,
       exclude: /node_modules/,
-      loader: 'react-hot!babel-loader'
+      loader: 'react-hot!babel-loader',
+      transform: 'reactify'
     }, {
       test: /\.scss/,
       loader: 'style-loader!css-loader!sass-loader?outputStyle=expanded'
