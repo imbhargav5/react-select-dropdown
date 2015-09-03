@@ -8,7 +8,6 @@
   },
   "src": "src",
   "test": "test",
-  "dist": "dist",
   "mainInput": "main",
   "mainOutput": "main",
   "dependencies": {
@@ -46,7 +45,7 @@
     "webpack": "~1.10.0",
     "webpack-dev-server": "~1.10.0"
   },
-  "main": "dist/assets/main.js",
+  "main": "src/lib/index.js",
   "directories": {
     "test": "test"
   },

@@ -9,7 +9,7 @@ describe('ReactSelectDropdownApp', () => {
     container.id = 'content';
     document.body.appendChild(container);
 
-    ReactSelectDropdownApp = require('components/ReactSelectDropdownApp.js');
+    ReactSelectDropdownApp = require('src/examples/example_simple/ReactSelectDropdownApp.js');
     component = React.createElement(ReactSelectDropdownApp);
   });
 

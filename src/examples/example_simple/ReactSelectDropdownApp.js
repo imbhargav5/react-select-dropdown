@@ -1,8 +1,7 @@
 'use strict';
-
 var React = require('react/addons');
 var ReactTransitionGroup = React.addons.TransitionGroup;
-var SelectDropdown = require('./index.js');
+var SelectDropdown = require('../../lib/index.js');
 
 // CSS
 require('normalize.css');
