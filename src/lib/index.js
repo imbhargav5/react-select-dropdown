@@ -81,7 +81,7 @@ module.exports = React.createClass({
 		var isActive = self.state.open ? 'active' : '';
 		return <div id={self.props.idName} className={'bh-dropdown ' + self.props.name + ' ' + isActive } ref='dropdown_root' onClick={self.handleClick}>
 		{displayText}<div className='dropdown-container'>
-		<ul ref='dropdown_menu' className={self.state.open ? 'dropdown-menu open' + self.props.name : 'dropdown-menu close' + self.props.names}>
+		<ul ref='dropdown_menu' className={self.state.open ? 'dropdown-menu open ' + self.props.name : 'dropdown-menu close' + self.props.names}>
 		{dropdownItems}
 		</ul>
 		</div>

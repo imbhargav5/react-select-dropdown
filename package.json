@@ -1,6 +1,6 @@
 {
   "name": "react-select-dropdown",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "A Dropdown for react",
   "repository": {
     "type": "git",
@@ -58,7 +58,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build" :"jsx -x js src/lib dist/lib"
+    "build": "jsx -x js src/lib dist/lib"
   },
   "keywords": [
     "react-dropdown",
